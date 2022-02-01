@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="loader">
+        <h3>Loading...</h3>
+    </div>
+    <div id="app">
+        <nav>
+            <a href="./" id="logo">
+                User<span>Suite</span>
+            </a>
+        </nav>
+        <main>
+            <div id="search-area">
+                <input type="text" id="search-input" placeholder="Search for a user...">
+            </div>
+            <div id="user-list">
+                <div class="user-card">
+                    <figure></figure>
+                    <h2>Bruce Lee</h2>
+                    <p>Frankfurt, Germany</p>
+                </div>
+            </div>
+        </main>
+        <div id="user-modal">
+            <button id="close">Close</button>
+            <div class="content">
+                <h1>User Name</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Below -->
+    <script src="./app.js"></script>
+</body>
+</html>
